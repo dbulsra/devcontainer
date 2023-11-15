@@ -1,0 +1,19 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "golang.go",
+                "GitHub.vscode-pull-request-github",
+                "atlassian.atlascode",
+                "ms-vscode.live-server",
+                "ms-vsliveshare.vsliveshare"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/github-cli:1": {}
+    }
+}
